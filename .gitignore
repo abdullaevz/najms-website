@@ -1,0 +1,15 @@
+node_modules
+.next
+out
+next-env.d.ts
+*.tsbuildinfo
+
+# gizli açarlar və istifadəçi mesajları
+.env
+.env.local
+.env.*.local
+data/messages.json
+data/*.tmp
+
+# Yüklənmiş şəkillər
+data/uploads/

@@ -1,0 +1,940 @@
+{
+  "settings": {
+    "brandName": "najms",
+    "brandPill": "",
+    "siteUrl": "https://najms.az",
+    "phone": "+994 55 218 95 08",
+    "whatsapp": "994552189508",
+    "email": "info@najms.az",
+    "address": {
+      "az": "Bakı, Azərbaycan",
+      "en": "Baku, Azerbaijan"
+    },
+    "social": [],
+    "theme": {
+      "accent": "#4f9cf9",
+      "gold": "#c8a96e"
+    }
+  },
+  "nav": {
+    "items": [
+      {
+        "id": "n-home",
+        "label": {
+          "az": "Əsas səhifə",
+          "en": "Home"
+        },
+        "href": "/",
+        "visible": true
+      },
+      {
+        "id": "n-services",
+        "label": {
+          "az": "Xidmətlərimiz",
+          "en": "Services"
+        },
+        "href": "/services",
+        "visible": true
+      },
+      {
+        "id": "n-packages",
+        "label": {
+          "az": "Xidmət Paketləri",
+          "en": "Packages"
+        },
+        "href": "/packages",
+        "visible": true
+      },
+      {
+        "id": "n-partners",
+        "label": {
+          "az": "Partnyorlar",
+          "en": "Partners"
+        },
+        "href": "/partners",
+        "visible": true
+      },
+      {
+        "id": "n-contact",
+        "label": {
+          "az": "Əlaqə",
+          "en": "Contact"
+        },
+        "href": "/contact",
+        "visible": true
+      }
+    ],
+    "cta": {
+      "label": {
+        "az": "Danışaq",
+        "en": "Let's talk"
+      },
+      "href": "/contact"
+    }
+  },
+  "hero": {
+    "visible": true,
+    "eyebrow": {
+      "az": "IT Solutions | Innovation",
+      "en": "IT Solutions | Innovation"
+    },
+    "title": {
+      "az": "İT-ni bizə həvalə edin, *biznesinizə* fokuslanın.",
+      "en": "Leave IT to us, *focus on your business*."
+    },
+    "subtitle": {
+      "az": "Biznesinizin fasiləsiz və yüksək keyfiyyətlə işləməsini təmin etmək üçün tam xidmətli helpdesk dəstəyi, şəbəkə infrastrukturu və bənzər xidmətləri təqdim edirik.",
+      "en": "We provide full-service helpdesk support, network infrastructure, and similar services to ensure your business operations run smoothly and with high quality."
+    },
+    "primary": {
+      "label": {
+        "az": "Xidmət Paketlərimizi Kəşf Et",
+        "en": "Explore Our Service Packages"
+      },
+      "href": "/packages"
+    },
+    "secondary": {
+      "label": {
+        "az": "Pulsuz konsultasiya",
+        "en": "Free consultation"
+      },
+      "href": "/contact"
+    },
+    "stats": [
+      {
+        "id": "st-services",
+        "value": 10,
+        "label": {
+          "az": "xidmət sahəsi",
+          "en": "service areas"
+        },
+        "tone": "accent"
+      },
+      {
+        "id": "st-packages",
+        "value": 3,
+        "label": {
+          "az": "xidmət paketi",
+          "en": "service packages"
+        },
+        "tone": "gold"
+      }
+    ],
+    "partnerCardLabel": {
+      "az": "Rəsmi tərəfdaş",
+      "en": "Official partner"
+    },
+    "contactCardLabel": {
+      "az": "WhatsApp · Telegram · Zəng",
+      "en": "WhatsApp · Telegram · Call"
+    }
+  },
+  "services": {
+    "visible": true,
+    "eyebrow": {
+      "az": "Nə edirik?",
+      "en": "What We Do?"
+    },
+    "title": {
+      "az": "Xidmət Sahələrimiz",
+      "en": "Our Service Areas"
+    },
+    "lead": {
+      "az": "Gündəlik helpdesk müraciətlərindən tutmuş tam infrastruktur layihələrinə, avtomatlaşdırma və bulud sistemlərinə qədər hərtərəfli İT həlləri təklif edirik.",
+      "en": "From daily helpdesk tickets to full infrastructure projects, automation, and cloud systems, we offer comprehensive IT solutions."
+    },
+    "items": [
+      {
+        "id": "svc-helpdesk",
+        "icon": "headset",
+        "title": {
+          "az": "IT Helpdesk Dəstəyi",
+          "en": "IT Helpdesk Support"
+        },
+        "description": {
+          "az": "Komandanız üçün birinci və ikinci səviyyəli texniki dəstək. Ticket idarəetməsi, uzaqdan yardım və ehtiyac olduqda yerində xidmət.",
+          "en": "First and second level technical support for your team. Ticket management, remote assistance, and on-site support when needed."
+        },
+        "featured": true,
+        "visible": true
+      },
+      {
+        "id": "svc-network",
+        "icon": "network",
+        "title": {
+          "az": "Şəbəkə & İnfrastruktur",
+          "en": "Network & Infrastructure"
+        },
+        "description": {
+          "az": "Hər ölçülü biznes üçün LAN/WAN, Wi-Fi, firewall və VPN həllərinin layihələndirilməsi, qurulması və monitorinqi.",
+          "en": "Designing, building, and monitoring LAN/WAN, Wi-Fi, firewall, and VPN solutions for businesses of all sizes."
+        },
+        "featured": true,
+        "visible": true
+      },
+      {
+        "id": "svc-audit",
+        "icon": "file-search",
+        "title": {
+          "az": "IT Audit",
+          "en": "IT Audit"
+        },
+        "description": {
+          "az": "Mövcud IT infrastrukturunuzun, təhlükəsizlik boşluqlarının və sistem səmərəliliyinin tam analizi və hesabatlandırılması.",
+          "en": "Complete analysis and reporting of your current IT infrastructure, security vulnerabilities, and system efficiency."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-ai",
+        "icon": "bot",
+        "title": {
+          "az": "AI Həlləri & Xidmətləri",
+          "en": "AI Solutions & Services"
+        },
+        "description": {
+          "az": "Biznes proseslərinin avtomatlaşdırılması, intellektual data analitikası və şirkətinizə özəl süni intellekt həllərinin inteqrasiyası.",
+          "en": "Automation of business processes, intelligent data analytics, and integration of custom AI solutions for your company."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-backup",
+        "icon": "database",
+        "title": {
+          "az": "Data Ehtiyat nüsxəsi & Bərpa",
+          "en": "Data Backup & Recovery"
+        },
+        "description": {
+          "az": "Kritik biznes məlumatlarınızı qorumaq üçün avtomatlaşdırılmış ehtiyat nüsxə strategiyaları və sınaqdan keçirilmiş bərpa planları.",
+          "en": "Automated backup strategies and tested recovery plans to protect your critical business data."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-managed",
+        "icon": "server",
+        "title": {
+          "az": "İdarə Olunan IT Xidmətləri",
+          "en": "Managed IT Services"
+        },
+        "description": {
+          "az": "Proaktiv monitorinq, yenilənmələrin idarə edilməsi və sistem sağlamlıq yoxlamaları — hamısı sabit aylıq plan daxilində.",
+          "en": "Proactive monitoring, update management, and system health checks — all within a fixed monthly plan."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-firewall",
+        "icon": "shield",
+        "title": {
+          "az": "Firewall Quraşdırılması",
+          "en": "Firewall Installation"
+        },
+        "description": {
+          "az": "Korporativ şəbəkənizi xarici kiber təhdidlərdən, icazəsiz girişlərdən qorumaq üçün peşəkar Firewall cihazlarının və proqram təminatının quraşdırılması.",
+          "en": "Deployment of professional Firewall hardware and software to protect your corporate network from cyber threats and unauthorized access."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-ceo",
+        "icon": "chart",
+        "title": {
+          "az": "CEO Həlləri",
+          "en": "CEO Solutions"
+        },
+        "description": {
+          "az": "Rəhbərlər üçün fərdi analitik panellər (Dashboard), strateji IT məsləhətçiliyi və biznesin idarə olunmasını asanlaşdıran analitik alətlər.",
+          "en": "Custom analytical dashboards, strategic IT consulting, and executive tools designed to streamline executive decision-making."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-web",
+        "icon": "globe",
+        "title": {
+          "az": "Websaytların Hazırlanması",
+          "en": "Website Development"
+        },
+        "description": {
+          "az": "Müasir, sürətli, SEO və mobil uyğun korporativ vebsaytların, veb-tətbiqlərin sıfırdan dizaynı və proqramlaşdırılması.",
+          "en": "Design and development of modern, fast, SEO-optimized, and mobile-friendly corporate websites and web applications."
+        },
+        "featured": false,
+        "visible": true
+      },
+      {
+        "id": "svc-smm",
+        "icon": "message",
+        "title": {
+          "az": "SMM Avtomatlaşdırma",
+          "en": "SMM Automation"
+        },
+        "description": {
+          "az": "Sosial media hesablarınızdakı mesajlaşmaların, paylaşım cədvəllərinin və müştəri sorğularının avtomatlaşdırılması həlləri.",
+          "en": "Automation solutions for messaging, post scheduling, and customer inquiries across your social media channels."
+        },
+        "featured": false,
+        "visible": true
+      }
+    ],
+    "showOnHome": true
+  },
+  "packages": {
+    "visible": true,
+    "eyebrow": {
+      "az": "Sizə Uyğun Seçim",
+      "en": "The Right Choice For You"
+    },
+    "title": {
+      "az": "Xidmət Paketlərimiz",
+      "en": "Our Service Packages"
+    },
+    "lead": {
+      "az": "Fərqli biznes ölçülərinə uyğun 3 səviyyəli paket strukturu təklif edirik. Hər bir paket sifarişçinin ehtiyaclarına uyğun fərdiləşdirilə bilər.",
+      "en": "We offer a 3-tier package structure tailored to different business sizes. Each package can be customized to your specific needs."
+    },
+    "items": [
+      {
+        "id": "pk-orbit",
+        "name": "ORBIT",
+        "highlighted": false,
+        "visible": true,
+        "tier": {
+          "az": "Başlanğıc Paketi",
+          "en": "Starter Package"
+        },
+        "subtitle": {
+          "az": "Kiçik ofislər üçün etibarlı IT dəstək",
+          "en": "Reliable IT support for small offices"
+        },
+        "ctaLabel": {
+          "az": "Təklif al",
+          "en": "Get a quote"
+        },
+        "features": [
+          {
+            "id": "o1",
+            "text": {
+              "az": "**Uzaqdan Dəstək:** Kompüter, proqram və şəbəkə problemlərinin həlli",
+              "en": "**Remote Support:** Computer, software, and network troubleshooting"
+            }
+          },
+          {
+            "id": "o2",
+            "text": {
+              "az": "**Sürətli Cavab Vaxtı:** İş günləri ərzində",
+              "en": "**Fast Response Time:** Within business hours"
+            }
+          },
+          {
+            "id": "o3",
+            "text": {
+              "az": "**Antivirus:** Quraşdırma və idarəetmə",
+              "en": "**Antivirus:** Installation and management"
+            }
+          },
+          {
+            "id": "o4",
+            "text": {
+              "az": "**Aylıq Hesabat:** Texniki hesabatın təqdim olunması",
+              "en": "**Monthly Report:** Technical status report presentation"
+            }
+          },
+          {
+            "id": "o5",
+            "text": {
+              "az": "**WhatsApp / Email Dəstəyi:** Sorğuların qəbulu",
+              "en": "**WhatsApp / Email Support:** Inquiry handling"
+            }
+          },
+          {
+            "id": "o6",
+            "text": {
+              "az": "**Mail Server & Domen:** Qurulum dəstəyi",
+              "en": "**Mail Server & Domain:** Setup support"
+            }
+          },
+          {
+            "id": "o7",
+            "text": {
+              "az": "**Avtomatlaşdırma:** n8n ilə əsas avtomatlaşdırma ssenarisi",
+              "en": "**Automation:** Basic automation scenarios with n8n"
+            }
+          },
+          {
+            "id": "o8",
+            "text": {
+              "az": "**Sahəyə Çıxış:** Mütəmadi olaraq ofisə gəliş",
+              "en": "**On-site Visit:** Regular office visits"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pk-nova",
+        "name": "NOVA",
+        "highlighted": true,
+        "visible": true,
+        "tier": {
+          "az": "Orta Paket",
+          "en": "Mid Package"
+        },
+        "subtitle": {
+          "az": "Böyüməkdə olan şirkətlər üçün tam IT idarəetməsi",
+          "en": "Complete IT management for growing companies"
+        },
+        "ctaLabel": {
+          "az": "Təklif al",
+          "en": "Get a quote"
+        },
+        "features": [
+          {
+            "id": "n1",
+            "text": {
+              "az": "**ORBIT Paketinin Bütün Xidmətləri:** Daxildir",
+              "en": "**All ORBIT Package Services:** Included"
+            }
+          },
+          {
+            "id": "n2",
+            "text": {
+              "az": "**Sahəyə Çıxış:** Həftəlik ofisə sahə çıxışı (Bakı daxili)",
+              "en": "**On-site Visit:** Weekly office visits (within Baku)"
+            }
+          },
+          {
+            "id": "n3",
+            "text": {
+              "az": "**Server İdarəetməsi:** Windows / Linux server monitorinqi və idarəetməsi",
+              "en": "**Server Management:** Windows / Linux server monitoring & support"
+            }
+          },
+          {
+            "id": "n4",
+            "text": {
+              "az": "**Active Directory:** İstifadəçi, qrup və kompüter idarəetməsi",
+              "en": "**Active Directory:** User, group, and computer management"
+            }
+          },
+          {
+            "id": "n5",
+            "text": {
+              "az": "**Group Policy:** Mərkəzləşdirilmiş siyasət konfiqurasiyası",
+              "en": "**Group Policy:** Centralized policy configuration"
+            }
+          },
+          {
+            "id": "n6",
+            "text": {
+              "az": "**Qısa Cavab Müddəti:** Kritik hallarda prioritet xidmət",
+              "en": "**Shorter Response Time:** Priority for critical cases"
+            }
+          },
+          {
+            "id": "n7",
+            "text": {
+              "az": "**Proses İnteqrasiyası:** n8n ilə çoxsaylı proses inteqrasiyası",
+              "en": "**Process Integration:** Multi-process integrations with n8n"
+            }
+          },
+          {
+            "id": "n8",
+            "text": {
+              "az": "**Chatbot Quraşdırılması:** Daxildir",
+              "en": "**Chatbot Setup:** Included"
+            }
+          },
+          {
+            "id": "n9",
+            "text": {
+              "az": "**IT Audit:** Rüblük İT audit",
+              "en": "**IT Audit:** Quarterly IT audit"
+            }
+          }
+        ]
+      },
+      {
+        "id": "pk-sirius",
+        "name": "SIRIUS",
+        "highlighted": false,
+        "visible": true,
+        "tier": {
+          "az": "Premium Paket",
+          "en": "Premium Package"
+        },
+        "subtitle": {
+          "az": "Müəssisə səviyyəli tam IT tərəfdaşlığı",
+          "en": "Enterprise-level comprehensive IT partnership"
+        },
+        "ctaLabel": {
+          "az": "Təklif al",
+          "en": "Get a quote"
+        },
+        "features": [
+          {
+            "id": "s1",
+            "text": {
+              "az": "**NOVA Paketinin Bütün Xidmətləri:** Daxildir",
+              "en": "**All NOVA Package Services:** Included"
+            }
+          },
+          {
+            "id": "s2",
+            "text": {
+              "az": "**Bulud İnteqrasiyası:** Microsoft 365 / Google Workspace tam idarəetmə",
+              "en": "**Cloud Integration:** Complete Microsoft 365 / Google Workspace management"
+            }
+          },
+          {
+            "id": "s3",
+            "text": {
+              "az": "**Backup Həlləri:** Avtomatik backup (lokal + bulud)",
+              "en": "**Backup Solutions:** Automated backup (local + cloud)"
+            }
+          },
+          {
+            "id": "s4",
+            "text": {
+              "az": "**İnfrastruktur Auditi:** İllik tam audit və yazılı hesabat",
+              "en": "**Infrastructure Audit:** Annual full audit with written report"
+            }
+          },
+          {
+            "id": "s5",
+            "text": {
+              "az": "**Sahəyə Çıxış:** Həftəlik sahə çıxışı (Bakı daxili)",
+              "en": "**On-site Visit:** Weekly site visits (within Baku)"
+            }
+          },
+          {
+            "id": "s6",
+            "text": {
+              "az": "**İşçi Təlimi:** Rüblük İT maariflənmə sessiyaları",
+              "en": "**Staff Training:** Quarterly IT awareness sessions"
+            }
+          },
+          {
+            "id": "s7",
+            "text": {
+              "az": "**Avtomatlaşdırma:** n8n əsasında tam fərdiləşdirilmiş həllər",
+              "en": "**Automation:** Fully customized n8n automation solutions"
+            }
+          },
+          {
+            "id": "s8",
+            "text": {
+              "az": "**Avadanlıq Təchizatı:** Prioritet əsaslı təchizat",
+              "en": "**Hardware Supply:** Priority hardware procurement"
+            }
+          }
+        ]
+      }
+    ],
+    "showOnHome": true
+  },
+  "contact": {
+    "visible": true,
+    "eyebrow": {
+      "az": "Əlaqəyə keçmək üçün",
+      "en": "Get In Touch"
+    },
+    "title": {
+      "az": "Bizimlə Əlaqə",
+      "en": "Contact Us"
+    },
+    "lead": {
+      "az": "Biznesiniz üçün ən uyğun paketi birlikdə müəyyən edək. Fərdi qiymət təklifi və pulsuz ilkin konsultasiya üçün bizimlə əlaqə saxlayın.",
+      "en": "Let's define the best package for your business together. Contact us for a custom quote and free initial consultation."
+    },
+    "addressLabel": {
+      "az": "Ünvan",
+      "en": "Address"
+    },
+    "phoneLabel": {
+      "az": "Telefon / WhatsApp / Telegram",
+      "en": "Phone / WhatsApp / Telegram"
+    },
+    "emailLabel": {
+      "az": "E-mail",
+      "en": "E-mail"
+    },
+    "form": {
+      "name": {
+        "az": "Ad",
+        "en": "First Name"
+      },
+      "surname": {
+        "az": "Soyad",
+        "en": "Last Name"
+      },
+      "email": {
+        "az": "E-mail",
+        "en": "Email"
+      },
+      "company": {
+        "az": "Şirkət adı",
+        "en": "Company Name"
+      },
+      "service": {
+        "az": "Seçilən Xidmət",
+        "en": "Service Needed"
+      },
+      "selectDefault": {
+        "az": "Xidmət seçin...",
+        "en": "Select a service..."
+      },
+      "otherOption": {
+        "az": "Digər",
+        "en": "Other"
+      },
+      "message": {
+        "az": "Mesajınız",
+        "en": "Your Message"
+      },
+      "placeholder": {
+        "az": "Sorğunuzu və ya probleminizi təsvir edin...",
+        "en": "Describe your issue or inquiry..."
+      },
+      "submit": {
+        "az": "Mesaj Göndər",
+        "en": "Send Message"
+      },
+      "sending": {
+        "az": "Göndərilir...",
+        "en": "Sending..."
+      },
+      "success": {
+        "az": "Mesajınız göndərildi. Tezliklə sizinlə əlaqə saxlayacağıq.",
+        "en": "Your message has been sent. We will contact you shortly."
+      },
+      "error": {
+        "az": "Mesaj göndərilmədi. Zəhmət olmasa WhatsApp və ya e-mail ilə yazın.",
+        "en": "The message could not be sent. Please contact us via WhatsApp or email."
+      }
+    },
+    "showOnHome": true
+  },
+  "footer": {
+    "brandText": {
+      "az": "Microsoft və Zoho Rəsmi Tərəfdaşı. Güvənli İT həlləri və davamlı innovasiyalar vasitəsilə biznesinizi gücləndiririk.",
+      "en": "Official Microsoft & Zoho Partner. Empowering businesses through reliable IT solutions and continuous innovation."
+    },
+    "columns": [
+      {
+        "id": "fc-company",
+        "title": {
+          "az": "Şirkət",
+          "en": "Company"
+        },
+        "links": [
+          {
+            "id": "fl-home",
+            "label": {
+              "az": "Ana Səhifə",
+              "en": "Home"
+            },
+            "href": "/"
+          },
+          {
+            "id": "fl-services",
+            "label": {
+              "az": "Xidmətlər",
+              "en": "Services"
+            },
+            "href": "/services"
+          },
+          {
+            "id": "fl-packages",
+            "label": {
+              "az": "Paketlər",
+              "en": "Packages"
+            },
+            "href": "/packages"
+          },
+          {
+            "id": "fl-partners",
+            "label": {
+              "az": "Partnyorlar",
+              "en": "Partners"
+            },
+            "href": "/partners"
+          }
+        ]
+      },
+      {
+        "id": "fc-services",
+        "title": {
+          "az": "Xidmətlər",
+          "en": "Services"
+        },
+        "links": [
+          {
+            "id": "fl-helpdesk",
+            "label": {
+              "az": "IT Helpdesk",
+              "en": "IT Helpdesk"
+            },
+            "href": "/services"
+          },
+          {
+            "id": "fl-network",
+            "label": {
+              "az": "Şəbəkə & İnfrastruktur",
+              "en": "Network & Infrastructure"
+            },
+            "href": "/services"
+          },
+          {
+            "id": "fl-firewall",
+            "label": {
+              "az": "Firewall Quraşdırılması",
+              "en": "Firewall Installation"
+            },
+            "href": "/services"
+          },
+          {
+            "id": "fl-web",
+            "label": {
+              "az": "Websaytların Hazırlanması",
+              "en": "Website Development"
+            },
+            "href": "/services"
+          },
+          {
+            "id": "fl-ai",
+            "label": {
+              "az": "AI & SMM Avtomatlaşdırma",
+              "en": "AI & SMM Automation"
+            },
+            "href": "/services"
+          }
+        ]
+      },
+      {
+        "id": "fc-support",
+        "title": {
+          "az": "Dəstək",
+          "en": "Support"
+        },
+        "links": [
+          {
+            "id": "fl-contact",
+            "label": {
+              "az": "Bizimlə Əlaqə",
+              "en": "Contact Us"
+            },
+            "href": "/contact"
+          }
+        ]
+      }
+    ],
+    "legal": [],
+    "copyright": {
+      "az": "© 2026 Najms Systems. Bütün hüquqlar qorunur.",
+      "en": "© 2026 Najms Systems. All rights reserved."
+    }
+  },
+  "partners": {
+    "visible": true,
+    "eyebrow": {
+      "az": "Etibarlı ekosistem",
+      "en": "Trusted ecosystem"
+    },
+    "title": {
+      "az": "Rəsmi *tərəfdaşlarımız*",
+      "en": "Our official *partners*"
+    },
+    "lead": {
+      "az": "Dünyanın aparıcı texnologiya şirkətləri ilə rəsmi tərəfdaşlıq edərək müştərilərimizə yoxlanılmış və dəstəklənən həllər təqdim edirik.",
+      "en": "Through official partnerships with leading technology companies, we deliver proven, vendor-supported solutions to our clients."
+    },
+    "badge": {
+      "az": "Rəsmi tərəfdaş",
+      "en": "Official partner"
+    },
+    "linkLabel": {
+      "az": "Sayta keç",
+      "en": "Visit website"
+    },
+    "items": [
+      {
+        "id": "pt-microsoft",
+        "name": "Microsoft",
+        "description": {
+          "az": "Microsoft 365, Azure və Windows mühitləri üzrə lisenziyalaşdırma, miqrasiya və idarəetmə həlləri.",
+          "en": "Licensing, migration and management solutions across Microsoft 365, Azure and Windows environments."
+        },
+        "url": "https://www.microsoft.com",
+        "visible": true,
+        "logo": "",
+        "logoTile": true
+      },
+      {
+        "id": "pt-zoho",
+        "name": "Zoho",
+        "description": {
+          "az": "Zoho CRM və digər biznes tətbiqlərinin quraşdırılması, inteqrasiyası və dəstəyi.",
+          "en": "Setup, integration and support for Zoho CRM and other business applications."
+        },
+        "url": "https://www.zoho.com",
+        "visible": true,
+        "logo": "",
+        "logoTile": true
+      }
+    ],
+    "showOnHome": true
+  },
+  "seo": {
+    "defaultTitle": {
+      "az": "Najms Systems – IT Solutions | Innovation",
+      "en": "Najms Systems – IT Solutions | Innovation"
+    },
+    "titleTemplate": {
+      "az": "%s | najms",
+      "en": "%s | najms"
+    },
+    "defaultDescription": {
+      "az": "Najms Systems: IT helpdesk, şəbəkə infrastrukturu, firewall, backup, AI və avtomatlaşdırma həlləri. Microsoft və Zoho rəsmi tərəfdaşı. Bakı.",
+      "en": "Najms Systems: IT helpdesk, network infrastructure, firewall, backup, AI and automation solutions. Official Microsoft and Zoho partner. Baku."
+    },
+    "keywords": {
+      "az": "IT helpdesk, şəbəkə infrastrukturu, firewall, backup, AI avtomatlaşdırma, Microsoft tərəfdaşı, Zoho tərəfdaşı, Bakı",
+      "en": "IT helpdesk, network infrastructure, firewall, backup, AI automation, Microsoft partner, Zoho partner, Baku"
+    },
+    "ogImage": "",
+    "favicon": "",
+    "themeColor": "#0b1628",
+    "twitter": {
+      "card": "summary_large_image",
+      "handle": ""
+    },
+    "robots": {
+      "index": true,
+      "follow": true,
+      "maxSnippet": -1,
+      "maxImagePreview": "large",
+      "maxVideoPreview": -1,
+      "disallow": [],
+      "extra": ""
+    },
+    "sitemap": {
+      "enabled": true,
+      "changeFreq": "weekly",
+      "hreflang": true
+    },
+    "llmsTxt": true,
+    "verification": {
+      "google": "",
+      "bing": "",
+      "yandex": "",
+      "facebook": "",
+      "pinterest": ""
+    },
+    "analytics": {
+      "ga4": "",
+      "gtm": "",
+      "metaPixel": "",
+      "yandexMetrica": "",
+      "clarity": ""
+    },
+    "geo": {
+      "region": "AZ-BA",
+      "placename": "Bakı",
+      "latitude": "40.4093",
+      "longitude": "49.8671",
+      "mapUrl": ""
+    },
+    "business": {
+      "enabled": true,
+      "type": "ProfessionalService",
+      "legalName": "",
+      "logo": "",
+      "foundingDate": "",
+      "priceRange": "",
+      "streetAddress": "",
+      "locality": "Bakı",
+      "region": "",
+      "postalCode": "",
+      "country": "AZ",
+      "hours": [],
+      "areaServed": [
+        {
+          "id": "as-az",
+          "name": "Azerbaijan"
+        }
+      ],
+      "sameAs": []
+    },
+    "pages": {
+      "home": {
+        "title": {
+          "az": "",
+          "en": ""
+        },
+        "description": {
+          "az": "",
+          "en": ""
+        },
+        "ogImage": "",
+        "noindex": false
+      },
+      "services": {
+        "title": {
+          "az": "",
+          "en": ""
+        },
+        "description": {
+          "az": "",
+          "en": ""
+        },
+        "ogImage": "",
+        "noindex": false
+      },
+      "packages": {
+        "title": {
+          "az": "",
+          "en": ""
+        },
+        "description": {
+          "az": "",
+          "en": ""
+        },
+        "ogImage": "",
+        "noindex": false
+      },
+      "partners": {
+        "title": {
+          "az": "",
+          "en": ""
+        },
+        "description": {
+          "az": "",
+          "en": ""
+        },
+        "ogImage": "",
+        "noindex": false
+      },
+      "contact": {
+        "title": {
+          "az": "",
+          "en": ""
+        },
+        "description": {
+          "az": "",
+          "en": ""
+        },
+        "ogImage": "",
+        "noindex": false
+      }
+    },
+    "redirects": []
+  }
+}
